@@ -1957,7 +1957,7 @@ htmlnano@^0.1.7:
     svgo "^1.0.5"
     uglify-js "^3.3.14"
 
-htmlparser2@^3.9.2:
+htmlparser2@^3.8.3, htmlparser2@^3.9.2:
   version "3.9.2"
   resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-3.9.2.tgz#1bdf87acca0f3f9e53fa4fcceb0f4b4cbb00b338"
   dependencies:
@@ -3194,7 +3194,7 @@ postcss-minify-selectors@^2.0.4:
     postcss "^5.0.14"
     postcss-selector-parser "^2.0.0"
 
-postcss-nesting@^4.0.1, postcss-nesting@^4.2.1:
+postcss-nesting@^4.0.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/postcss-nesting/-/postcss-nesting-4.2.1.tgz#0483bce338b3f0828ced90ff530b29b98b00300d"
   dependencies:
@@ -3330,6 +3330,13 @@ postcss@^6.0, postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.11, postcss@^6.0.14, 
     source-map "^0.6.1"
     supports-color "^5.3.0"
 
+posthtml-parser@^0.2.0:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/posthtml-parser/-/posthtml-parser-0.2.1.tgz#35d530de386740c2ba24ff2eb2faf39ccdf271dd"
+  dependencies:
+    htmlparser2 "^3.8.3"
+    isobject "^2.1.0"
+
 posthtml-parser@^0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/posthtml-parser/-/posthtml-parser-0.3.3.tgz#3fe986fca9f00c0f109d731ba590b192f26e776d"
@@ -3344,6 +3351,13 @@ posthtml-parser@^0.4.0:
   dependencies:
     htmlparser2 "^3.9.2"
     object-assign "^4.1.1"
+
+posthtml-pug@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/posthtml-pug/-/posthtml-pug-1.0.2.tgz#bda83557eeea97eb3beffa3afa37e8e3e864cb9a"
+  dependencies:
+    posthtml-parser "^0.2.0"
+    pug "^2.0.0-beta6"
 
 posthtml-render@^1.1.0, posthtml-render@^1.1.1:
   version "1.1.3"
@@ -3485,7 +3499,7 @@ pug-walk@^1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/pug-walk/-/pug-walk-1.1.7.tgz#c00d5c5128bac5806bec15d2b7e7cdabe42531f3"
 
-pug@^2.0.3:
+pug@^2.0.0-beta6, pug@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/pug/-/pug-2.0.3.tgz#71cba82537c95a5eab7ed04696e4221f53aa878e"
   dependencies:
