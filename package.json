@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "prebuild": "rm -rf dist",
     "build": "yarn parcel build src/index.pug",
     "start": "yarn parcel serve src/index.pug",
     "lint": "echo \"No lint\" && exit 1"
@@ -12,8 +13,10 @@
     "babel-preset-env": "^1.6.1",
     "parcel-bundler": "^1.7.0",
     "postcss-cssnext": "^3.1.0",
-    "posthtml-include": "^1.1.0",
+    "postcss-nesting": "^4.2.1",
     "posthtml-pug": "^1.0.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "pug": "^2.0.3"
+  }
 }

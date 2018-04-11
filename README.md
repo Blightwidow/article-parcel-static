@@ -2,5 +2,12 @@
 
 Static websites builder using parcel-bundler.
 
-To build: `yarn build`
-To start development build `yarn start`
+To build:
+```shell
+yarn build
+```
+
+To start development server:
+```shell
+yarn start
+```

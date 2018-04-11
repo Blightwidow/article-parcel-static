@@ -1,3 +1,7 @@
 .link {
   color: red;
+
+  &:hover {
+    color: blue;
+  }
 }
