@@ -5,12 +5,11 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "yarn parcel build src/index.pug",
-    "start": "yarn parcel serve src/index.pug",
+    "build": "parcel build src/index.pug",
+    "start": "parcel serve src/index.pug",
     "lint": "echo \"No lint\" && exit 1"
   },
   "dependencies": {
-    "babel-preset-env": "^1.6.1",
     "parcel-bundler": "^1.7.0",
     "postcss-cssnext": "^3.1.0",
     "posthtml-pug": "^1.0.2"
